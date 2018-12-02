@@ -8,4 +8,4 @@ s4Lab - I am a hacker
 I simply showed how to use directory listing along with git exposure to recover all website's source code.
 Although there is another situation where the directory listing is not enabled and you should be familiar with how a versioning system (here git) works. Shortly in this situation either you can recover all source code through a recursive approach.
 
-
+3. for
