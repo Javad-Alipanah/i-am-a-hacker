@@ -14,4 +14,11 @@ We can assume that N >> K and that's a good assumption because 2\*\*48 in terms 
 Therefore we can sort the sizes associated with files using counting sort algorithm with O(N) processing order and O(M) memory order. The order of memory used is equal to maximum memory order of our files.  
 Now we can iterate over the array of sorted sizes and compare the files which have the same size and discover duplicates.
 
-4. ali
+4. With radare2 if you want to dump only binary file open the binary using  
+```r2 helloworld```  
+then run ```px```
+If you want to disassemble instructions then instead of the ```px``` run ```pd```
+And finally if you want radare to analyse code (function calls, flags, constraint types analysis, and etc) run  
+```r2 -AA helloworld```
+and then:  
+```pdf```
