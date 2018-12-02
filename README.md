@@ -11,7 +11,7 @@ Although there is another situation where the directory listing is not enabled a
 First we find the maximum file size through a simple iteration over all files; this maximum is represented by M.  
 We know that counting sort algorithm is of O(N + K) processing order where N is number of instances and K is the range over which they are distributed. Here we have N = 2\*\*48 and K = M + 1 (0-M)  
 We can assume that N >> K and that's a good assumption because 2\*\*48 in terms of size (in bytes) is equal to 256 Terabytes.  
-Therefore we can sort the sizes associated with files using counting sort algorithm with O(N) processing order and O(M) memory order. (no need to size calculations OS stores the sizes in file system). The order of memory used is equal to maximum memory order of our files.  
+Therefore we can sort the sizes associated with files using counting sort algorithm with O(N) processing order and O(M) memory order. The order of memory used is equal to maximum memory order of our files.  
 Now we can iterate over the array of sorted sizes and compare the files which have the same size and discover duplicates.
 
 4. ali
