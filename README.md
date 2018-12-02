@@ -16,4 +16,5 @@ Now we can iterate over the array of sorted sizes and compare the files which ha
 
 4. With radare2 if you want to dump only binary file open the binary using ```r2 helloworld``` then run ```px```
 If you want to disassemble instructions then instead of the ```px``` run ```pd```
-And finally if you want radare to analyse code (function calls, flags, constraint types analysis, and etc) run ```r2 -AA helloworld``` and then ```pdf```
+And finally if you want radare to analyse code (function calls, flags, constraint types analysis, and etc) run ```r2 -AA helloworld``` and then ```pdf```.  
+You can find my amazing helloworld C functions in [codes/](https://github.com/Javad-Alipanah/i-am-a-hacker/tree/master/codes)
